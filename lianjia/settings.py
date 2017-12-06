@@ -14,6 +14,8 @@ BOT_NAME = 'lianjia'
 SPIDER_MODULES = ['lianjia.spiders']
 NEWSPIDER_MODULE = 'lianjia.spiders'
 
+# add for json output coding
+FEED_EXPORT_ENCODING = 'utf-8'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'lianjia (+http://www.yourdomain.com)'
@@ -64,9 +66,9 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
+# ITEM_PIPELINES = {
 #    'lianjia.pipelines.LianjiaPipeline': 300,
-#}
+# }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

@@ -15,3 +15,12 @@ class LianjiaItem(scrapy.Item):
     house_info = scrapy.Field()
     title = scrapy.Field()
     pass
+
+class LianjiaSzItem(scrapy.Item):
+    # define the fields for your item here like:
+    name = scrapy.Field()
+    region = scrapy.Field()
+    area = scrapy.Field()
+    other = scrapy.Field()
+    type = scrapy.Field()
+    price = scrapy.Field()
